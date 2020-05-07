@@ -1,0 +1,25 @@
+@import '@cssVariables';
+
+.button__group {
+  display: flex;
+  justify-content: center;
+}
+
+.grid__item {
+  padding: var(--space16);
+  margin: var(--space4);
+  border: var(--space1) dashed rgba(0,0,0,0.6);
+}
+
+.grid__wrapper {
+  display: grid;
+  margin: var(--space20) var(--space20) 0
+}
+
+button {
+  display: inline-block;
+  border: none;
+  padding: var(--space10) var(--space20);
+  margin-right: var(--space10);
+  font-size: var(--space20);
+}
